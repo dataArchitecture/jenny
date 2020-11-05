@@ -2,6 +2,7 @@
 
 # mysql connector를 사용하기 위한 모듈 선언
 import mysql.connector;
+import os
 
 class stock_db():
 	def __init__(self):
