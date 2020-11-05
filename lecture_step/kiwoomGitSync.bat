@@ -1,12 +1,11 @@
 @ECHO ON
 cd C:/Users/sungb/PycharmProjects
-git clone https://github.com/dataArchitecture/jenny.git
 
 git status
 
 git add *
 
-git commit -m "add test"
+git commit -m "$1"
 
 git push --set-upstream origin master
 
